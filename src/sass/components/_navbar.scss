@@ -1,0 +1,15 @@
+.navbar {
+    background-color: var(--color-gray-60);
+    height: 30px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+    &__title {
+        display: inline;
+        margin-top: 2rem;
+        font-size: 4rem;
+        color: var(--color-gray-50);
+    }
+}
